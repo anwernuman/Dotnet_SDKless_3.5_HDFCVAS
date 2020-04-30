@@ -19,8 +19,8 @@ namespace RazorpaySampleApp
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            string key = "rzp_live_Nd4cMOpB2WTE5x";
-            string secret = "wQX7T4vyT6vFRzWO9byy3kYa";
+            string key = "API_Key";
+            string secret = "API_Secret";
 
             string receivedSignature = Request.Form["razorpay_signature"];
             string orderId = Request.Form["razorpay_order_id"];
